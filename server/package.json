@@ -1,0 +1,21 @@
+{
+  "name": "lyjs-yjs-provider",
+  "version": "0.0.1",
+  "main": "src/index.mjs",
+  "scripts": {
+    "dev": "node src/index.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "@stylistic/eslint-plugin": "^5.3.1",
+    "eslint": "^9.35.0",
+    "eslint_d": "^14.3.0",
+    "globals": "^16.4.0",
+    "typescript": "^5.9.2",
+    "typescript-language-server": "^4.4.0"
+  },
+  "dependencies": {
+    "@hocuspocus/extension-logger": "^3.2.3",
+    "@hocuspocus/server": "^3.2.3"
+  }
+}
