@@ -32,5 +32,10 @@
     "typescript": "^5.9.2",
     "typescript-language-server": "^4.4.0",
     "vite": "^7.1.2"
+  },
+  "overrides": {
+    "@blocknote/core": {
+      "@hocuspocus/provider": "$@hocuspocus/provider"
+    }
   }
 }
